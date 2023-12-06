@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#calculator{
+    text-align: center;
+}
+
+body{
+    background-color:black;
+    color: white;
+    min-height: 100vh;
+}
+
+.buttons {
+    border: none;
+    color: white;
+    padding: 10px 15px; /* Adjust the values based on your preference */
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#subtract, #dot {
+    width: 44px; /* Adjust the width based on your preference */
+}
+
+.output {
+    text-align:right;
+}
